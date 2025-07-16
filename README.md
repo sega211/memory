@@ -52,9 +52,7 @@ npm live-server
 Игра будет доступна по адресу: http://localhost:8080
 
 Структура файлов
-```mermaid
-graph TD
-
+```
 memory
 ├── assets
 │   ├── images
