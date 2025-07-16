@@ -40,14 +40,20 @@ git clone https://github.com/sega211/memory.git
 
 настройте live-server для разработки:
 
+```bash
 npm install -g live-server
+```
 Запустите игру:
 
-bash
+```bash
 npm live-server
+```
 Игра будет доступна по адресу: http://localhost:8080
 
 Структура файлов
+```mermaid
+graph TD
+
 memory
 ├── assets
 │   ├── images
@@ -64,14 +70,18 @@ memory
 └── package.json
 Конфигурация игры
 В файле src/config.js можно настроить параметры игры:
+```
 
-javascript
+```javascript
 export const config = {
     rows: 4,            // Количество строк
     cols: 4,            // Количество столбцов
     cards: [1, 2, 3, 4, 5, 6, 7, 8], // Доступные карты
     timeout: 60         // Время игры в секундах
 };
+```
+
+
 Геймплей
 Игра начинается с анимации вылета карт из верхнего левого угла
 
@@ -91,3 +101,5 @@ export const config = {
 [Mnogodeto4ka]
 Сайт
 [www.mnogodeto4ka.ru]
+Email
+[sega21@mail.ru]
